@@ -1,5 +1,5 @@
 public with sharing class ContactController {
-   //test commit again
+   //test commit again 123
     @AuraEnabled(cacheable=true)
     public static List<Contact> getContactList() {
         return [SELECT Id, Name, Title, Phone, Email FROM Contact  LIMIT 10];
