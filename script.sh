@@ -1,4 +1,4 @@
-export WSPACE=/ci/.jenkins/workspace/sfdx_cli_poc
+export WSPACE=${WORKSPACE}
 dos2unix $WSPACE/version.txt 2>>/dev/null
         cd $WSPACE/manifest
 	        echo changing directoy to $WSPACE
@@ -56,7 +56,7 @@ echo Analyzing file `basename $CFILE`
       fi
       done
       Cleaning up Package.xml
-      xmlstarlet ed -L -s /Package -t elem -n version -v "27.0" $WSPACE/manifest/package.xml
+      xmlstarlet ed -L -s /Package -t elem -n version -v "44.0" $WSPACE/manifest/package.xml
       xmlstarlet ed -L -i /Package -t attr -n xmlns -v "http://soap.sforce.com/2006/04/metadata" $WSPACE/manifest/package.xml
      # list updated files
      cat $WSPACE/manifest/package.xml
