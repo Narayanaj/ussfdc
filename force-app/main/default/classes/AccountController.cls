@@ -1,5 +1,5 @@
 public with sharing class AccountController {
- // test1 commit
+ // test1 commits for test
     @AuraEnabled(cacheable=true)
     public static List<Account> findAccounts(String searchKey) {
         String key = '%' + searchKey + '%';
