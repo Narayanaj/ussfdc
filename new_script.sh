@@ -1,6 +1,6 @@
 # generate_package_xml.sh <workspace directory>
 #get list of modified files
-#script updated
+#script updated with commit
 
 
 #export WSPACE=$1
