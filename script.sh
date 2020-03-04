@@ -1,4 +1,4 @@
-# this script is used for delta
+# this script is used for delta deployment
 export WSPACE=${WORKSPACE}
 dos2unix $WSPACE/version.txt 2>>/dev/null
         cd $WSPACE/manifest
