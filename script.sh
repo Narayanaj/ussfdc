@@ -1,4 +1,4 @@
-# this script sample script for deployment
+# this script sample script for deployment test
 export WSPACE=${WORKSPACE}
 dos2unix $WSPACE/version.txt 2>>/dev/null
         cd $WSPACE/manifest
