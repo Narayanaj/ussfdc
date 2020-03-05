@@ -1,4 +1,4 @@
-# Test commit updated updated again deploy
+# Test commit updated updated again deploy test
 export WSPACE=${WORKSPACE}
 dos2unix $WSPACE/version.txt 2>>/dev/null
         cd $WSPACE/manifest
